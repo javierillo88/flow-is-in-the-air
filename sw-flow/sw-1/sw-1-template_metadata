@@ -1,0 +1,24 @@
+{
+  "name": "sw-1-template",
+  "description": "sw-1 Dataflow template",
+  "parameters": [
+    {
+      "name": "input",
+      "label": "Json input file in Cloud Storage",
+      "help_text": "Path of the file pattern glob to read from.",
+      "regexes": [
+        "^gs:\/\/[^\n\r]+$"
+      ],
+      "is_optional": false
+    },
+    {
+      "name": "output",
+      "label": "Output filename in Cloud Storage",
+      "help_text": "Path of the file pattern glob to write to",
+      "regexes": [
+        "^gs:\/\/[^\n\r]+$"
+      ],
+      "is_optional": false
+    }
+  ]
+}

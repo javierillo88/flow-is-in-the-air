@@ -1,0 +1,10 @@
+# IDEs
+.eclipse/
+.idea/
+.vscode/
+*.iml
+out/
+
+# Virtual environment
+env/
+venv/

@@ -1,0 +1,22 @@
+{
+  "name": "sw-2-template",
+  "description": "sw-2 Dataflow template",
+  "parameters": [
+    {
+      "name": "dataset",
+      "label": "Dataset ID to read from Cloud Datastore",
+      "help_text": "Project ID",
+      "is_optional": false
+    },
+    {
+      "name": "kind",
+      "label": "Datastore Kind",
+      "is_optional": false
+    },
+    {
+      "name": "namespace",
+      "label": "Datastore namespace",
+      "is_optional": false
+    }
+  ]
+}
