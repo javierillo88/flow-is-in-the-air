@@ -1,2 +1,2 @@
 requests==2.5.0
-ujson==1.33
+ujson==5.4.0
